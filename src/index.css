@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Nerko+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	scroll-behavior: smooth;
+}
+
+.Basket {
+	font-size: 50px;
+}
+
+@media only screen and (max-width: 620px) {
+	.Basket {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.Basket {
+		font-size: 35px;
+	}
+}
+
+.Phone, .Mail {
+	font-size: 23px;
+	margin-right: 10px;
+	color: #daad33;
+}
+
+@media only screen and (max-width: 480px) {
+	.Phone, .Mail {
+		font-size: 18px;
+	}
+}
+
+
+.bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .backdrop {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    animation: slide-down 300ms ease-out forwards;
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
