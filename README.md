@@ -1,5 +1,5 @@
 ## Informacje ogólne
-Strona internetowa stworzona w celu indywidualnej praktyki.
+Strona internetowa W TRAKCIE TWORZENIA w celu indywidualnej praktyki.
 
 Link do strony: 
 
