@@ -1,7 +1,7 @@
 ## Informacje ogólne
 Strona internetowa W TRAKCIE TWORZENIA w celu indywidualnej praktyki.
 
-Link do strony: 
+Link do strony: https://sklep-miodzio.vercel.app/
 
 ## Użyte technologie
 * HTML
